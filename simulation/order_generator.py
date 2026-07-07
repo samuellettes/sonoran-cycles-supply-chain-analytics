@@ -21,7 +21,7 @@ import simulation.simulation_config as config
 from simulation.customer_engine import select_dealer, select_dtc_customer
 from simulation.product_engine import choose_product
 from simulation.demand_engine import calculate_daily_orders
-
+from simulation.inventory_engine import allocate_inventory
 
 def format_date(date):
     """
@@ -132,6 +132,7 @@ def generate_order_header(order_id, date, customer, channel):
 
 
 def generate_order_line(
+    sim,
     order_id,
     line_number,
     product,
@@ -139,17 +140,33 @@ def generate_order_line(
     discount_pct,
 ):
     """
-    Creates one sales order line.
+    Creates one sales order line and allocates available inventory.
     """
+
+    inventory_result = allocate_inventory(
+        sim=sim,
+        product_id=product["product_id"],
+        requested_qty=quantity,
+    )
+
+    requested_qty = quantity
+    fulfilled_qty = inventory_result["fulfilled_qty"]
+    backordered_qty = inventory_result["backordered_qty"]
+    fill_rate = inventory_result["fill_rate"]
 
     msrp = float(product["msrp"])
     unit_price = round(msrp * (1 - discount_pct), 2)
-    extended_price = round(unit_price * quantity, 2)
+
+    booked_revenue = round(unit_price * requested_qty, 2)
+    fulfilled_revenue = round(unit_price * fulfilled_qty, 2)
 
     unit_cost = calculate_unit_cost(product)
-    extended_cost = round(unit_cost * quantity, 2)
 
-    gross_profit = round(extended_price - extended_cost, 2)
+    booked_cost = round(unit_cost * requested_qty, 2)
+    fulfilled_cost = round(unit_cost * fulfilled_qty, 2)
+
+    booked_gross_profit = round(booked_revenue - booked_cost, 2)
+    fulfilled_gross_profit = round(fulfilled_revenue - fulfilled_cost, 2)
 
     return {
         "sales_order_id": order_id,
@@ -160,14 +177,25 @@ def generate_order_line(
         "category": product["category"],
         "size": product["size"],
         "color": product["color"],
-        "requested_qty": quantity,
+
+        "requested_qty": requested_qty,
+        "fulfilled_qty": fulfilled_qty,
+        "backordered_qty": backordered_qty,
+        "fill_rate": fill_rate,
+
         "unit_msrp": msrp,
         "discount_pct": round(discount_pct, 3),
         "unit_price": unit_price,
-        "extended_price": extended_price,
+
+        "extended_price": booked_revenue,
+        "fulfilled_revenue": fulfilled_revenue,
+
         "unit_cost": unit_cost,
-        "extended_cost": extended_cost,
-        "gross_profit": gross_profit,
+        "extended_cost": booked_cost,
+        "fulfilled_cost": fulfilled_cost,
+
+        "gross_profit": booked_gross_profit,
+        "fulfilled_gross_profit": fulfilled_gross_profit,
     }
 
 
@@ -232,6 +260,7 @@ def generate_dealer_order(sim, date):
         quantity = choose_dealer_quantity()
 
         line = generate_order_line(
+            sim=sim,
             order_id=order_id,
             line_number=line_number,
             product=product,
@@ -289,6 +318,7 @@ def generate_dtc_order(sim, date):
         quantity = choose_dtc_quantity()
 
         line = generate_order_line(
+            sim=sim,
             order_id=order_id,
             line_number=line_number,
             product=product,

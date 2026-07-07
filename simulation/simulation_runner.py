@@ -16,6 +16,10 @@ import simulation.simulation_config as config
 
 from simulation.customer_engine import add_customer_order_weights
 from simulation.order_generator import generate_daily_orders
+from simulation.inventory_engine import (
+    record_inventory_snapshot,
+    calculate_inventory_summary,
+)
 
 
 def prepare_simulation(sim):
@@ -93,6 +97,15 @@ def run_sales_simulation(sim, start_date=None, end_date=None):
             date=date,
             weather=weather,
         )
+
+        record_inventory_snapshot(
+            sim=sim,
+            date=date,
+        )
+
+        inventory_summary = calculate_inventory_summary(sim)
+
+        daily_summary.update(inventory_summary)
 
         daily_summaries.append(daily_summary)
 
