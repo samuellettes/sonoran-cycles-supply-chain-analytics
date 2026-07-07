@@ -155,3 +155,62 @@ DEALER_PROFILE_MODEL_WEIGHTS = {
         "Rincon": 0.05,
     },
 }
+
+# =========================================================
+# ORDER GENERATION SETTINGS
+# =========================================================
+
+DEFAULT_WAREHOUSE = "Phoenix Distribution Center"
+
+ORDER_STATUS_BOOKED = "Booked"
+
+DEALER_PAYMENT_TERMS_BY_TIER = {
+    "Platinum": "Net 45",
+    "Gold": "Net 30",
+    "Silver": "Net 30",
+    "Bronze": "Prepaid",
+    "N/A": "Credit Card",
+}
+
+DEALER_DISCOUNT_BY_TIER = {
+    "Platinum": 0.42,
+    "Gold": 0.38,
+    "Silver": 0.35,
+    "Bronze": 0.32,
+    "N/A": 0.00,
+}
+
+DTC_DISCOUNT_PCT = 0.00
+
+MIN_DEALER_LINES = 2
+MAX_DEALER_LINES = 6
+
+DEALER_LINE_QTY_WEIGHTS = {
+    1: 0.35,
+    2: 0.30,
+    3: 0.20,
+    4: 0.10,
+    5: 0.05,
+}
+
+DTC_LINE_QTY_WEIGHTS = {
+    1: 0.95,
+    2: 0.05,
+}
+
+DTC_SECOND_LINE_PROBABILITY = 0.08
+
+
+# =========================================================
+# STANDARD COST ASSUMPTIONS
+# =========================================================
+
+STANDARD_COST_PCT_BY_CATEGORY = {
+    "Cross Country": 0.53,
+    "Downcountry": 0.55,
+    "Trail": 0.56,
+    "Aggressive Trail": 0.58,
+    "Enduro": 0.60,
+    "eMTB": 0.64,
+    "Gravel": 0.52,
+}
