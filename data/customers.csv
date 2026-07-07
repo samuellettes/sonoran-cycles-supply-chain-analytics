@@ -1,0 +1,37 @@
+customer_id,customer_name,customer_type,region,state,dealer_profile,dealer_tier,account_open_date,active_flag
+C0001,Sonoran Cycles Online,DTC,National,Online,Direct,N/A,2020-05-10,True
+C0002,Desert Trail Bikes,Dealer,Southwest,Arizona,Trail Shop,Platinum,2021-07-18,True
+C0003,Cactus Cycling,Dealer,Southwest,Arizona,Generalist,Gold,2021-02-04,True
+C0004,Sonoran Bike Co.,Dealer,Southwest,Arizona,Aggressive MTB,Gold,2020-12-31,True
+C0005,Mesa Mountain Bikes,Dealer,Southwest,Arizona,XC Specialist,Silver,2022-06-27,True
+C0006,Tucson Trail Works,Dealer,Southwest,Arizona,Trail Shop,Gold,2023-12-10,True
+C0007,Red Rock Cycles,Dealer,Southwest,Utah,Aggressive MTB,Silver,2019-04-12,True
+C0008,Sedona Ride Center,Dealer,Southwest,Arizona,Premium Dealer,Gold,2021-05-23,True
+C0009,Las Cruces Cycling,Dealer,Southwest,New Mexico,Generalist,Silver,2018-11-27,True
+C0010,Evergreen Cyclery,Dealer,West Coast,Washington,XC Specialist,Platinum,2022-01-22,True
+C0011,Cascade Bikes,Dealer,West Coast,Washington,Trail Shop,Gold,2023-11-06,True
+C0012,Rain City Cycles,Dealer,West Coast,Washington,Generalist,Silver,2018-05-11,True
+C0013,Pacific Trail Bikes,Dealer,West Coast,California,Premium Dealer,Platinum,2022-08-13,True
+C0014,Redwood Ride Shop,Dealer,West Coast,California,Generalist,Gold,2020-02-09,True
+C0015,Sierra Cycle Works,Dealer,West Coast,California,Trail Shop,Gold,2022-02-24,True
+C0016,Coastal Gravel Co.,Dealer,West Coast,California,Gravel Shop,Silver,2021-04-30,True
+C0017,Bay Mountain Bikes,Dealer,West Coast,California,Aggressive MTB,Gold,2020-08-13,True
+C0018,High Country Bikes,Dealer,Mountain,Colorado,Aggressive MTB,Platinum,2021-03-30,True
+C0019,Front Range Cyclery,Dealer,Mountain,Colorado,Trail Shop,Gold,2019-04-05,True
+C0020,Alpine Ride Co.,Dealer,Mountain,Colorado,XC Specialist,Gold,2018-01-22,True
+C0021,Rocky Peak Cycles,Dealer,Mountain,Colorado,Generalist,Silver,2020-01-18,True
+C0022,Wasatch Wheel Works,Dealer,Mountain,Utah,Trail Shop,Gold,2019-04-20,True
+C0023,Bozeman Bike Works,Dealer,Mountain,Montana,Aggressive MTB,Silver,2020-12-18,True
+C0024,Teton Cycling,Dealer,Mountain,Wyoming,Generalist,Silver,2023-08-10,True
+C0025,Lakeshore Bikes,Dealer,Midwest,Wisconsin,XC Specialist,Gold,2020-09-02,True
+C0026,Great Lakes Cyclery,Dealer,Midwest,Michigan,Generalist,Silver,2022-12-12,True
+C0027,Prairie Trail Bikes,Dealer,Midwest,Minnesota,Trail Shop,Gold,2018-07-09,True
+C0028,Windy City Cycles,Dealer,Midwest,Illinois,Generalist,Silver,2019-07-17,True
+C0029,River Bend Bikes,Dealer,Midwest,Missouri,Aggressive MTB,Silver,2023-03-15,True
+C0030,Blue Ridge Cycles,Dealer,Southeast,North Carolina,Trail Shop,Gold,2021-06-21,True
+C0031,Pisgah Bike Co.,Dealer,Southeast,North Carolina,Aggressive MTB,Platinum,2022-03-09,True
+C0032,Southern Singletrack,Dealer,Southeast,Georgia,Generalist,Silver,2019-10-09,True
+C0033,Appalachian Bikes,Dealer,Southeast,Tennessee,Trail Shop,Gold,2023-08-31,True
+C0034,Green Mountain Bikes,Dealer,Northeast,Vermont,XC Specialist,Gold,2021-07-21,True
+C0035,Adirondack Cycles,Dealer,Northeast,New York,Trail Shop,Silver,2019-08-24,True
+C0036,Pine Tree Bicycles,Dealer,Northeast,Maine,Generalist,Silver,2023-08-24,True

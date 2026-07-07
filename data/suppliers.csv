@@ -1,0 +1,11 @@
+supplier_id,supplier_name,country,lead_time_days
+S001,Fox Factory,USA,21
+S002,SRAM,Taiwan,30
+S003,Shimano,Japan,45
+S004,DT Swiss,Switzerland,28
+S005,Maxxis,Taiwan,35
+S006,Race Face,Canada,28
+S007,OneUp Components,Canada,24
+S008,Wolf Tooth,USA,18
+S009,Cane Creek,USA,20
+S010,Industry Nine,USA,16

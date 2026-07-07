@@ -1,0 +1,211 @@
+product_id,model_name,category,travel_mm,wheel_size,frame_material,size,color,msrp,launch_date,active_flag,supplier_id,sku,standard_cost
+1001,Catalina,Cross Country,120,29,Carbon,XS,Ironwood,3299,2022-03-01,True,S002,SON-CAT-C-XS-IR,1748.47
+1002,Catalina,Cross Country,120,29,Carbon,XS,Saguaro,3299,2022-03-01,True,S002,SON-CAT-C-XS-SG,1748.47
+1003,Catalina,Cross Country,120,29,Carbon,XS,Sunset,3299,2022-03-01,True,S002,SON-CAT-C-XS-SS,1748.47
+1004,Catalina,Cross Country,120,29,Carbon,XS,Granite,3299,2022-03-01,True,S002,SON-CAT-C-XS-GR,1748.47
+1005,Catalina,Cross Country,120,29,Carbon,XS,Coyote,3299,2022-03-01,True,S002,SON-CAT-C-XS-CY,1748.47
+1006,Catalina,Cross Country,120,29,Carbon,XS,Sky,3299,2022-03-01,True,S002,SON-CAT-C-XS-SK,1748.47
+1007,Catalina,Cross Country,120,29,Carbon,S,Ironwood,3299,2022-03-01,True,S002,SON-CAT-C-S-IR,1748.47
+1008,Catalina,Cross Country,120,29,Carbon,S,Saguaro,3299,2022-03-01,True,S002,SON-CAT-C-S-SG,1748.47
+1009,Catalina,Cross Country,120,29,Carbon,S,Sunset,3299,2022-03-01,True,S002,SON-CAT-C-S-SS,1748.47
+1010,Catalina,Cross Country,120,29,Carbon,S,Granite,3299,2022-03-01,True,S002,SON-CAT-C-S-GR,1748.47
+1011,Catalina,Cross Country,120,29,Carbon,S,Coyote,3299,2022-03-01,True,S002,SON-CAT-C-S-CY,1748.47
+1012,Catalina,Cross Country,120,29,Carbon,S,Sky,3299,2022-03-01,True,S002,SON-CAT-C-S-SK,1748.47
+1013,Catalina,Cross Country,120,29,Carbon,M,Ironwood,3299,2022-03-01,True,S002,SON-CAT-C-M-IR,1748.47
+1014,Catalina,Cross Country,120,29,Carbon,M,Saguaro,3299,2022-03-01,True,S002,SON-CAT-C-M-SG,1748.47
+1015,Catalina,Cross Country,120,29,Carbon,M,Sunset,3299,2022-03-01,True,S002,SON-CAT-C-M-SS,1748.47
+1016,Catalina,Cross Country,120,29,Carbon,M,Granite,3299,2022-03-01,True,S002,SON-CAT-C-M-GR,1748.47
+1017,Catalina,Cross Country,120,29,Carbon,M,Coyote,3299,2022-03-01,True,S002,SON-CAT-C-M-CY,1748.47
+1018,Catalina,Cross Country,120,29,Carbon,M,Sky,3299,2022-03-01,True,S002,SON-CAT-C-M-SK,1748.47
+1019,Catalina,Cross Country,120,29,Carbon,L,Ironwood,3299,2022-03-01,True,S002,SON-CAT-C-L-IR,1748.47
+1020,Catalina,Cross Country,120,29,Carbon,L,Saguaro,3299,2022-03-01,True,S002,SON-CAT-C-L-SG,1748.47
+1021,Catalina,Cross Country,120,29,Carbon,L,Sunset,3299,2022-03-01,True,S002,SON-CAT-C-L-SS,1748.47
+1022,Catalina,Cross Country,120,29,Carbon,L,Granite,3299,2022-03-01,True,S002,SON-CAT-C-L-GR,1748.47
+1023,Catalina,Cross Country,120,29,Carbon,L,Coyote,3299,2022-03-01,True,S002,SON-CAT-C-L-CY,1748.47
+1024,Catalina,Cross Country,120,29,Carbon,L,Sky,3299,2022-03-01,True,S002,SON-CAT-C-L-SK,1748.47
+1025,Catalina,Cross Country,120,29,Carbon,XL,Ironwood,3299,2022-03-01,True,S002,SON-CAT-C-XL-IR,1748.47
+1026,Catalina,Cross Country,120,29,Carbon,XL,Saguaro,3299,2022-03-01,True,S002,SON-CAT-C-XL-SG,1748.47
+1027,Catalina,Cross Country,120,29,Carbon,XL,Sunset,3299,2022-03-01,True,S002,SON-CAT-C-XL-SS,1748.47
+1028,Catalina,Cross Country,120,29,Carbon,XL,Granite,3299,2022-03-01,True,S002,SON-CAT-C-XL-GR,1748.47
+1029,Catalina,Cross Country,120,29,Carbon,XL,Coyote,3299,2022-03-01,True,S002,SON-CAT-C-XL-CY,1748.47
+1030,Catalina,Cross Country,120,29,Carbon,XL,Sky,3299,2022-03-01,True,S002,SON-CAT-C-XL-SK,1748.47
+1031,Rincon,Downcountry,130,29,Carbon,XS,Ironwood,3999,2022-06-01,True,S002,SON-RIN-C-XS-IR,2199.45
+1032,Rincon,Downcountry,130,29,Carbon,XS,Saguaro,3999,2022-06-01,True,S002,SON-RIN-C-XS-SG,2199.45
+1033,Rincon,Downcountry,130,29,Carbon,XS,Sunset,3999,2022-06-01,True,S002,SON-RIN-C-XS-SS,2199.45
+1034,Rincon,Downcountry,130,29,Carbon,XS,Granite,3999,2022-06-01,True,S002,SON-RIN-C-XS-GR,2199.45
+1035,Rincon,Downcountry,130,29,Carbon,XS,Coyote,3999,2022-06-01,True,S002,SON-RIN-C-XS-CY,2199.45
+1036,Rincon,Downcountry,130,29,Carbon,XS,Sky,3999,2022-06-01,True,S002,SON-RIN-C-XS-SK,2199.45
+1037,Rincon,Downcountry,130,29,Carbon,S,Ironwood,3999,2022-06-01,True,S002,SON-RIN-C-S-IR,2199.45
+1038,Rincon,Downcountry,130,29,Carbon,S,Saguaro,3999,2022-06-01,True,S002,SON-RIN-C-S-SG,2199.45
+1039,Rincon,Downcountry,130,29,Carbon,S,Sunset,3999,2022-06-01,True,S002,SON-RIN-C-S-SS,2199.45
+1040,Rincon,Downcountry,130,29,Carbon,S,Granite,3999,2022-06-01,True,S002,SON-RIN-C-S-GR,2199.45
+1041,Rincon,Downcountry,130,29,Carbon,S,Coyote,3999,2022-06-01,True,S002,SON-RIN-C-S-CY,2199.45
+1042,Rincon,Downcountry,130,29,Carbon,S,Sky,3999,2022-06-01,True,S002,SON-RIN-C-S-SK,2199.45
+1043,Rincon,Downcountry,130,29,Carbon,M,Ironwood,3999,2022-06-01,True,S002,SON-RIN-C-M-IR,2199.45
+1044,Rincon,Downcountry,130,29,Carbon,M,Saguaro,3999,2022-06-01,True,S002,SON-RIN-C-M-SG,2199.45
+1045,Rincon,Downcountry,130,29,Carbon,M,Sunset,3999,2022-06-01,True,S002,SON-RIN-C-M-SS,2199.45
+1046,Rincon,Downcountry,130,29,Carbon,M,Granite,3999,2022-06-01,True,S002,SON-RIN-C-M-GR,2199.45
+1047,Rincon,Downcountry,130,29,Carbon,M,Coyote,3999,2022-06-01,True,S002,SON-RIN-C-M-CY,2199.45
+1048,Rincon,Downcountry,130,29,Carbon,M,Sky,3999,2022-06-01,True,S002,SON-RIN-C-M-SK,2199.45
+1049,Rincon,Downcountry,130,29,Carbon,L,Ironwood,3999,2022-06-01,True,S002,SON-RIN-C-L-IR,2199.45
+1050,Rincon,Downcountry,130,29,Carbon,L,Saguaro,3999,2022-06-01,True,S002,SON-RIN-C-L-SG,2199.45
+1051,Rincon,Downcountry,130,29,Carbon,L,Sunset,3999,2022-06-01,True,S002,SON-RIN-C-L-SS,2199.45
+1052,Rincon,Downcountry,130,29,Carbon,L,Granite,3999,2022-06-01,True,S002,SON-RIN-C-L-GR,2199.45
+1053,Rincon,Downcountry,130,29,Carbon,L,Coyote,3999,2022-06-01,True,S002,SON-RIN-C-L-CY,2199.45
+1054,Rincon,Downcountry,130,29,Carbon,L,Sky,3999,2022-06-01,True,S002,SON-RIN-C-L-SK,2199.45
+1055,Rincon,Downcountry,130,29,Carbon,XL,Ironwood,3999,2022-06-01,True,S002,SON-RIN-C-XL-IR,2199.45
+1056,Rincon,Downcountry,130,29,Carbon,XL,Saguaro,3999,2022-06-01,True,S002,SON-RIN-C-XL-SG,2199.45
+1057,Rincon,Downcountry,130,29,Carbon,XL,Sunset,3999,2022-06-01,True,S002,SON-RIN-C-XL-SS,2199.45
+1058,Rincon,Downcountry,130,29,Carbon,XL,Granite,3999,2022-06-01,True,S002,SON-RIN-C-XL-GR,2199.45
+1059,Rincon,Downcountry,130,29,Carbon,XL,Coyote,3999,2022-06-01,True,S002,SON-RIN-C-XL-CY,2199.45
+1060,Rincon,Downcountry,130,29,Carbon,XL,Sky,3999,2022-06-01,True,S002,SON-RIN-C-XL-SK,2199.45
+1061,Sabino,Trail,140,29,Carbon,XS,Ironwood,4599,2022-09-01,True,S001,SON-SAB-C-XS-IR,2575.44
+1062,Sabino,Trail,140,29,Carbon,XS,Saguaro,4599,2022-09-01,True,S001,SON-SAB-C-XS-SG,2575.44
+1063,Sabino,Trail,140,29,Carbon,XS,Sunset,4599,2022-09-01,True,S001,SON-SAB-C-XS-SS,2575.44
+1064,Sabino,Trail,140,29,Carbon,XS,Granite,4599,2022-09-01,True,S001,SON-SAB-C-XS-GR,2575.44
+1065,Sabino,Trail,140,29,Carbon,XS,Coyote,4599,2022-09-01,True,S001,SON-SAB-C-XS-CY,2575.44
+1066,Sabino,Trail,140,29,Carbon,XS,Sky,4599,2022-09-01,True,S001,SON-SAB-C-XS-SK,2575.44
+1067,Sabino,Trail,140,29,Carbon,S,Ironwood,4599,2022-09-01,True,S001,SON-SAB-C-S-IR,2575.44
+1068,Sabino,Trail,140,29,Carbon,S,Saguaro,4599,2022-09-01,True,S001,SON-SAB-C-S-SG,2575.44
+1069,Sabino,Trail,140,29,Carbon,S,Sunset,4599,2022-09-01,True,S001,SON-SAB-C-S-SS,2575.44
+1070,Sabino,Trail,140,29,Carbon,S,Granite,4599,2022-09-01,True,S001,SON-SAB-C-S-GR,2575.44
+1071,Sabino,Trail,140,29,Carbon,S,Coyote,4599,2022-09-01,True,S001,SON-SAB-C-S-CY,2575.44
+1072,Sabino,Trail,140,29,Carbon,S,Sky,4599,2022-09-01,True,S001,SON-SAB-C-S-SK,2575.44
+1073,Sabino,Trail,140,29,Carbon,M,Ironwood,4599,2022-09-01,True,S001,SON-SAB-C-M-IR,2575.44
+1074,Sabino,Trail,140,29,Carbon,M,Saguaro,4599,2022-09-01,True,S001,SON-SAB-C-M-SG,2575.44
+1075,Sabino,Trail,140,29,Carbon,M,Sunset,4599,2022-09-01,True,S001,SON-SAB-C-M-SS,2575.44
+1076,Sabino,Trail,140,29,Carbon,M,Granite,4599,2022-09-01,True,S001,SON-SAB-C-M-GR,2575.44
+1077,Sabino,Trail,140,29,Carbon,M,Coyote,4599,2022-09-01,True,S001,SON-SAB-C-M-CY,2575.44
+1078,Sabino,Trail,140,29,Carbon,M,Sky,4599,2022-09-01,True,S001,SON-SAB-C-M-SK,2575.44
+1079,Sabino,Trail,140,29,Carbon,L,Ironwood,4599,2022-09-01,True,S001,SON-SAB-C-L-IR,2575.44
+1080,Sabino,Trail,140,29,Carbon,L,Saguaro,4599,2022-09-01,True,S001,SON-SAB-C-L-SG,2575.44
+1081,Sabino,Trail,140,29,Carbon,L,Sunset,4599,2022-09-01,True,S001,SON-SAB-C-L-SS,2575.44
+1082,Sabino,Trail,140,29,Carbon,L,Granite,4599,2022-09-01,True,S001,SON-SAB-C-L-GR,2575.44
+1083,Sabino,Trail,140,29,Carbon,L,Coyote,4599,2022-09-01,True,S001,SON-SAB-C-L-CY,2575.44
+1084,Sabino,Trail,140,29,Carbon,L,Sky,4599,2022-09-01,True,S001,SON-SAB-C-L-SK,2575.44
+1085,Sabino,Trail,140,29,Carbon,XL,Ironwood,4599,2022-09-01,True,S001,SON-SAB-C-XL-IR,2575.44
+1086,Sabino,Trail,140,29,Carbon,XL,Saguaro,4599,2022-09-01,True,S001,SON-SAB-C-XL-SG,2575.44
+1087,Sabino,Trail,140,29,Carbon,XL,Sunset,4599,2022-09-01,True,S001,SON-SAB-C-XL-SS,2575.44
+1088,Sabino,Trail,140,29,Carbon,XL,Granite,4599,2022-09-01,True,S001,SON-SAB-C-XL-GR,2575.44
+1089,Sabino,Trail,140,29,Carbon,XL,Coyote,4599,2022-09-01,True,S001,SON-SAB-C-XL-CY,2575.44
+1090,Sabino,Trail,140,29,Carbon,XL,Sky,4599,2022-09-01,True,S001,SON-SAB-C-XL-SK,2575.44
+1091,Romero,Aggressive Trail,150,29,Carbon,XS,Ironwood,5199,2023-03-01,True,S001,SON-ROM-C-XS-IR,3015.42
+1092,Romero,Aggressive Trail,150,29,Carbon,XS,Saguaro,5199,2023-03-01,True,S001,SON-ROM-C-XS-SG,3015.42
+1093,Romero,Aggressive Trail,150,29,Carbon,XS,Sunset,5199,2023-03-01,True,S001,SON-ROM-C-XS-SS,3015.42
+1094,Romero,Aggressive Trail,150,29,Carbon,XS,Granite,5199,2023-03-01,True,S001,SON-ROM-C-XS-GR,3015.42
+1095,Romero,Aggressive Trail,150,29,Carbon,XS,Coyote,5199,2023-03-01,True,S001,SON-ROM-C-XS-CY,3015.42
+1096,Romero,Aggressive Trail,150,29,Carbon,XS,Sky,5199,2023-03-01,True,S001,SON-ROM-C-XS-SK,3015.42
+1097,Romero,Aggressive Trail,150,29,Carbon,S,Ironwood,5199,2023-03-01,True,S001,SON-ROM-C-S-IR,3015.42
+1098,Romero,Aggressive Trail,150,29,Carbon,S,Saguaro,5199,2023-03-01,True,S001,SON-ROM-C-S-SG,3015.42
+1099,Romero,Aggressive Trail,150,29,Carbon,S,Sunset,5199,2023-03-01,True,S001,SON-ROM-C-S-SS,3015.42
+1100,Romero,Aggressive Trail,150,29,Carbon,S,Granite,5199,2023-03-01,True,S001,SON-ROM-C-S-GR,3015.42
+1101,Romero,Aggressive Trail,150,29,Carbon,S,Coyote,5199,2023-03-01,True,S001,SON-ROM-C-S-CY,3015.42
+1102,Romero,Aggressive Trail,150,29,Carbon,S,Sky,5199,2023-03-01,True,S001,SON-ROM-C-S-SK,3015.42
+1103,Romero,Aggressive Trail,150,29,Carbon,M,Ironwood,5199,2023-03-01,True,S001,SON-ROM-C-M-IR,3015.42
+1104,Romero,Aggressive Trail,150,29,Carbon,M,Saguaro,5199,2023-03-01,True,S001,SON-ROM-C-M-SG,3015.42
+1105,Romero,Aggressive Trail,150,29,Carbon,M,Sunset,5199,2023-03-01,True,S001,SON-ROM-C-M-SS,3015.42
+1106,Romero,Aggressive Trail,150,29,Carbon,M,Granite,5199,2023-03-01,True,S001,SON-ROM-C-M-GR,3015.42
+1107,Romero,Aggressive Trail,150,29,Carbon,M,Coyote,5199,2023-03-01,True,S001,SON-ROM-C-M-CY,3015.42
+1108,Romero,Aggressive Trail,150,29,Carbon,M,Sky,5199,2023-03-01,True,S001,SON-ROM-C-M-SK,3015.42
+1109,Romero,Aggressive Trail,150,29,Carbon,L,Ironwood,5199,2023-03-01,True,S001,SON-ROM-C-L-IR,3015.42
+1110,Romero,Aggressive Trail,150,29,Carbon,L,Saguaro,5199,2023-03-01,True,S001,SON-ROM-C-L-SG,3015.42
+1111,Romero,Aggressive Trail,150,29,Carbon,L,Sunset,5199,2023-03-01,True,S001,SON-ROM-C-L-SS,3015.42
+1112,Romero,Aggressive Trail,150,29,Carbon,L,Granite,5199,2023-03-01,True,S001,SON-ROM-C-L-GR,3015.42
+1113,Romero,Aggressive Trail,150,29,Carbon,L,Coyote,5199,2023-03-01,True,S001,SON-ROM-C-L-CY,3015.42
+1114,Romero,Aggressive Trail,150,29,Carbon,L,Sky,5199,2023-03-01,True,S001,SON-ROM-C-L-SK,3015.42
+1115,Romero,Aggressive Trail,150,29,Carbon,XL,Ironwood,5199,2023-03-01,True,S001,SON-ROM-C-XL-IR,3015.42
+1116,Romero,Aggressive Trail,150,29,Carbon,XL,Saguaro,5199,2023-03-01,True,S001,SON-ROM-C-XL-SG,3015.42
+1117,Romero,Aggressive Trail,150,29,Carbon,XL,Sunset,5199,2023-03-01,True,S001,SON-ROM-C-XL-SS,3015.42
+1118,Romero,Aggressive Trail,150,29,Carbon,XL,Granite,5199,2023-03-01,True,S001,SON-ROM-C-XL-GR,3015.42
+1119,Romero,Aggressive Trail,150,29,Carbon,XL,Coyote,5199,2023-03-01,True,S001,SON-ROM-C-XL-CY,3015.42
+1120,Romero,Aggressive Trail,150,29,Carbon,XL,Sky,5199,2023-03-01,True,S001,SON-ROM-C-XL-SK,3015.42
+1121,Oracle,Enduro,165,Mixed,Carbon,XS,Ironwood,6199,2023-06-01,True,S001,SON-ORA-C-XS-IR,3719.4
+1122,Oracle,Enduro,165,Mixed,Carbon,XS,Saguaro,6199,2023-06-01,True,S001,SON-ORA-C-XS-SG,3719.4
+1123,Oracle,Enduro,165,Mixed,Carbon,XS,Sunset,6199,2023-06-01,True,S001,SON-ORA-C-XS-SS,3719.4
+1124,Oracle,Enduro,165,Mixed,Carbon,XS,Granite,6199,2023-06-01,True,S001,SON-ORA-C-XS-GR,3719.4
+1125,Oracle,Enduro,165,Mixed,Carbon,XS,Coyote,6199,2023-06-01,True,S001,SON-ORA-C-XS-CY,3719.4
+1126,Oracle,Enduro,165,Mixed,Carbon,XS,Sky,6199,2023-06-01,True,S001,SON-ORA-C-XS-SK,3719.4
+1127,Oracle,Enduro,165,Mixed,Carbon,S,Ironwood,6199,2023-06-01,True,S001,SON-ORA-C-S-IR,3719.4
+1128,Oracle,Enduro,165,Mixed,Carbon,S,Saguaro,6199,2023-06-01,True,S001,SON-ORA-C-S-SG,3719.4
+1129,Oracle,Enduro,165,Mixed,Carbon,S,Sunset,6199,2023-06-01,True,S001,SON-ORA-C-S-SS,3719.4
+1130,Oracle,Enduro,165,Mixed,Carbon,S,Granite,6199,2023-06-01,True,S001,SON-ORA-C-S-GR,3719.4
+1131,Oracle,Enduro,165,Mixed,Carbon,S,Coyote,6199,2023-06-01,True,S001,SON-ORA-C-S-CY,3719.4
+1132,Oracle,Enduro,165,Mixed,Carbon,S,Sky,6199,2023-06-01,True,S001,SON-ORA-C-S-SK,3719.4
+1133,Oracle,Enduro,165,Mixed,Carbon,M,Ironwood,6199,2023-06-01,True,S001,SON-ORA-C-M-IR,3719.4
+1134,Oracle,Enduro,165,Mixed,Carbon,M,Saguaro,6199,2023-06-01,True,S001,SON-ORA-C-M-SG,3719.4
+1135,Oracle,Enduro,165,Mixed,Carbon,M,Sunset,6199,2023-06-01,True,S001,SON-ORA-C-M-SS,3719.4
+1136,Oracle,Enduro,165,Mixed,Carbon,M,Granite,6199,2023-06-01,True,S001,SON-ORA-C-M-GR,3719.4
+1137,Oracle,Enduro,165,Mixed,Carbon,M,Coyote,6199,2023-06-01,True,S001,SON-ORA-C-M-CY,3719.4
+1138,Oracle,Enduro,165,Mixed,Carbon,M,Sky,6199,2023-06-01,True,S001,SON-ORA-C-M-SK,3719.4
+1139,Oracle,Enduro,165,Mixed,Carbon,L,Ironwood,6199,2023-06-01,True,S001,SON-ORA-C-L-IR,3719.4
+1140,Oracle,Enduro,165,Mixed,Carbon,L,Saguaro,6199,2023-06-01,True,S001,SON-ORA-C-L-SG,3719.4
+1141,Oracle,Enduro,165,Mixed,Carbon,L,Sunset,6199,2023-06-01,True,S001,SON-ORA-C-L-SS,3719.4
+1142,Oracle,Enduro,165,Mixed,Carbon,L,Granite,6199,2023-06-01,True,S001,SON-ORA-C-L-GR,3719.4
+1143,Oracle,Enduro,165,Mixed,Carbon,L,Coyote,6199,2023-06-01,True,S001,SON-ORA-C-L-CY,3719.4
+1144,Oracle,Enduro,165,Mixed,Carbon,L,Sky,6199,2023-06-01,True,S001,SON-ORA-C-L-SK,3719.4
+1145,Oracle,Enduro,165,Mixed,Carbon,XL,Ironwood,6199,2023-06-01,True,S001,SON-ORA-C-XL-IR,3719.4
+1146,Oracle,Enduro,165,Mixed,Carbon,XL,Saguaro,6199,2023-06-01,True,S001,SON-ORA-C-XL-SG,3719.4
+1147,Oracle,Enduro,165,Mixed,Carbon,XL,Sunset,6199,2023-06-01,True,S001,SON-ORA-C-XL-SS,3719.4
+1148,Oracle,Enduro,165,Mixed,Carbon,XL,Granite,6199,2023-06-01,True,S001,SON-ORA-C-XL-GR,3719.4
+1149,Oracle,Enduro,165,Mixed,Carbon,XL,Coyote,6199,2023-06-01,True,S001,SON-ORA-C-XL-CY,3719.4
+1150,Oracle,Enduro,165,Mixed,Carbon,XL,Sky,6199,2023-06-01,True,S001,SON-ORA-C-XL-SK,3719.4
+1151,Sky Island,eMTB,160,Mixed,Carbon,XS,Ironwood,7499,2023-09-01,True,S001,SON-SKY-C-XS-IR,4799.36
+1152,Sky Island,eMTB,160,Mixed,Carbon,XS,Saguaro,7499,2023-09-01,True,S001,SON-SKY-C-XS-SG,4799.36
+1153,Sky Island,eMTB,160,Mixed,Carbon,XS,Sunset,7499,2023-09-01,True,S001,SON-SKY-C-XS-SS,4799.36
+1154,Sky Island,eMTB,160,Mixed,Carbon,XS,Granite,7499,2023-09-01,True,S001,SON-SKY-C-XS-GR,4799.36
+1155,Sky Island,eMTB,160,Mixed,Carbon,XS,Coyote,7499,2023-09-01,True,S001,SON-SKY-C-XS-CY,4799.36
+1156,Sky Island,eMTB,160,Mixed,Carbon,XS,Sky,7499,2023-09-01,True,S001,SON-SKY-C-XS-SK,4799.36
+1157,Sky Island,eMTB,160,Mixed,Carbon,S,Ironwood,7499,2023-09-01,True,S001,SON-SKY-C-S-IR,4799.36
+1158,Sky Island,eMTB,160,Mixed,Carbon,S,Saguaro,7499,2023-09-01,True,S001,SON-SKY-C-S-SG,4799.36
+1159,Sky Island,eMTB,160,Mixed,Carbon,S,Sunset,7499,2023-09-01,True,S001,SON-SKY-C-S-SS,4799.36
+1160,Sky Island,eMTB,160,Mixed,Carbon,S,Granite,7499,2023-09-01,True,S001,SON-SKY-C-S-GR,4799.36
+1161,Sky Island,eMTB,160,Mixed,Carbon,S,Coyote,7499,2023-09-01,True,S001,SON-SKY-C-S-CY,4799.36
+1162,Sky Island,eMTB,160,Mixed,Carbon,S,Sky,7499,2023-09-01,True,S001,SON-SKY-C-S-SK,4799.36
+1163,Sky Island,eMTB,160,Mixed,Carbon,M,Ironwood,7499,2023-09-01,True,S001,SON-SKY-C-M-IR,4799.36
+1164,Sky Island,eMTB,160,Mixed,Carbon,M,Saguaro,7499,2023-09-01,True,S001,SON-SKY-C-M-SG,4799.36
+1165,Sky Island,eMTB,160,Mixed,Carbon,M,Sunset,7499,2023-09-01,True,S001,SON-SKY-C-M-SS,4799.36
+1166,Sky Island,eMTB,160,Mixed,Carbon,M,Granite,7499,2023-09-01,True,S001,SON-SKY-C-M-GR,4799.36
+1167,Sky Island,eMTB,160,Mixed,Carbon,M,Coyote,7499,2023-09-01,True,S001,SON-SKY-C-M-CY,4799.36
+1168,Sky Island,eMTB,160,Mixed,Carbon,M,Sky,7499,2023-09-01,True,S001,SON-SKY-C-M-SK,4799.36
+1169,Sky Island,eMTB,160,Mixed,Carbon,L,Ironwood,7499,2023-09-01,True,S001,SON-SKY-C-L-IR,4799.36
+1170,Sky Island,eMTB,160,Mixed,Carbon,L,Saguaro,7499,2023-09-01,True,S001,SON-SKY-C-L-SG,4799.36
+1171,Sky Island,eMTB,160,Mixed,Carbon,L,Sunset,7499,2023-09-01,True,S001,SON-SKY-C-L-SS,4799.36
+1172,Sky Island,eMTB,160,Mixed,Carbon,L,Granite,7499,2023-09-01,True,S001,SON-SKY-C-L-GR,4799.36
+1173,Sky Island,eMTB,160,Mixed,Carbon,L,Coyote,7499,2023-09-01,True,S001,SON-SKY-C-L-CY,4799.36
+1174,Sky Island,eMTB,160,Mixed,Carbon,L,Sky,7499,2023-09-01,True,S001,SON-SKY-C-L-SK,4799.36
+1175,Sky Island,eMTB,160,Mixed,Carbon,XL,Ironwood,7499,2023-09-01,True,S001,SON-SKY-C-XL-IR,4799.36
+1176,Sky Island,eMTB,160,Mixed,Carbon,XL,Saguaro,7499,2023-09-01,True,S001,SON-SKY-C-XL-SG,4799.36
+1177,Sky Island,eMTB,160,Mixed,Carbon,XL,Sunset,7499,2023-09-01,True,S001,SON-SKY-C-XL-SS,4799.36
+1178,Sky Island,eMTB,160,Mixed,Carbon,XL,Granite,7499,2023-09-01,True,S001,SON-SKY-C-XL-GR,4799.36
+1179,Sky Island,eMTB,160,Mixed,Carbon,XL,Coyote,7499,2023-09-01,True,S001,SON-SKY-C-XL-CY,4799.36
+1180,Sky Island,eMTB,160,Mixed,Carbon,XL,Sky,7499,2023-09-01,True,S001,SON-SKY-C-XL-SK,4799.36
+1181,Sonoita,Gravel,0,700c,Aluminum,XS,Ironwood,3499,2022-04-01,True,S002,SON-SON-A-XS-IR,1819.48
+1182,Sonoita,Gravel,0,700c,Aluminum,XS,Saguaro,3499,2022-04-01,True,S002,SON-SON-A-XS-SG,1819.48
+1183,Sonoita,Gravel,0,700c,Aluminum,XS,Sunset,3499,2022-04-01,True,S002,SON-SON-A-XS-SS,1819.48
+1184,Sonoita,Gravel,0,700c,Aluminum,XS,Granite,3499,2022-04-01,True,S002,SON-SON-A-XS-GR,1819.48
+1185,Sonoita,Gravel,0,700c,Aluminum,XS,Coyote,3499,2022-04-01,True,S002,SON-SON-A-XS-CY,1819.48
+1186,Sonoita,Gravel,0,700c,Aluminum,XS,Sky,3499,2022-04-01,True,S002,SON-SON-A-XS-SK,1819.48
+1187,Sonoita,Gravel,0,700c,Aluminum,S,Ironwood,3499,2022-04-01,True,S002,SON-SON-A-S-IR,1819.48
+1188,Sonoita,Gravel,0,700c,Aluminum,S,Saguaro,3499,2022-04-01,True,S002,SON-SON-A-S-SG,1819.48
+1189,Sonoita,Gravel,0,700c,Aluminum,S,Sunset,3499,2022-04-01,True,S002,SON-SON-A-S-SS,1819.48
+1190,Sonoita,Gravel,0,700c,Aluminum,S,Granite,3499,2022-04-01,True,S002,SON-SON-A-S-GR,1819.48
+1191,Sonoita,Gravel,0,700c,Aluminum,S,Coyote,3499,2022-04-01,True,S002,SON-SON-A-S-CY,1819.48
+1192,Sonoita,Gravel,0,700c,Aluminum,S,Sky,3499,2022-04-01,True,S002,SON-SON-A-S-SK,1819.48
+1193,Sonoita,Gravel,0,700c,Aluminum,M,Ironwood,3499,2022-04-01,True,S002,SON-SON-A-M-IR,1819.48
+1194,Sonoita,Gravel,0,700c,Aluminum,M,Saguaro,3499,2022-04-01,True,S002,SON-SON-A-M-SG,1819.48
+1195,Sonoita,Gravel,0,700c,Aluminum,M,Sunset,3499,2022-04-01,True,S002,SON-SON-A-M-SS,1819.48
+1196,Sonoita,Gravel,0,700c,Aluminum,M,Granite,3499,2022-04-01,True,S002,SON-SON-A-M-GR,1819.48
+1197,Sonoita,Gravel,0,700c,Aluminum,M,Coyote,3499,2022-04-01,True,S002,SON-SON-A-M-CY,1819.48
+1198,Sonoita,Gravel,0,700c,Aluminum,M,Sky,3499,2022-04-01,True,S002,SON-SON-A-M-SK,1819.48
+1199,Sonoita,Gravel,0,700c,Aluminum,L,Ironwood,3499,2022-04-01,True,S002,SON-SON-A-L-IR,1819.48
+1200,Sonoita,Gravel,0,700c,Aluminum,L,Saguaro,3499,2022-04-01,True,S002,SON-SON-A-L-SG,1819.48
+1201,Sonoita,Gravel,0,700c,Aluminum,L,Sunset,3499,2022-04-01,True,S002,SON-SON-A-L-SS,1819.48
+1202,Sonoita,Gravel,0,700c,Aluminum,L,Granite,3499,2022-04-01,True,S002,SON-SON-A-L-GR,1819.48
+1203,Sonoita,Gravel,0,700c,Aluminum,L,Coyote,3499,2022-04-01,True,S002,SON-SON-A-L-CY,1819.48
+1204,Sonoita,Gravel,0,700c,Aluminum,L,Sky,3499,2022-04-01,True,S002,SON-SON-A-L-SK,1819.48
+1205,Sonoita,Gravel,0,700c,Aluminum,XL,Ironwood,3499,2022-04-01,True,S002,SON-SON-A-XL-IR,1819.48
+1206,Sonoita,Gravel,0,700c,Aluminum,XL,Saguaro,3499,2022-04-01,True,S002,SON-SON-A-XL-SG,1819.48
+1207,Sonoita,Gravel,0,700c,Aluminum,XL,Sunset,3499,2022-04-01,True,S002,SON-SON-A-XL-SS,1819.48
+1208,Sonoita,Gravel,0,700c,Aluminum,XL,Granite,3499,2022-04-01,True,S002,SON-SON-A-XL-GR,1819.48
+1209,Sonoita,Gravel,0,700c,Aluminum,XL,Coyote,3499,2022-04-01,True,S002,SON-SON-A-XL-CY,1819.48
+1210,Sonoita,Gravel,0,700c,Aluminum,XL,Sky,3499,2022-04-01,True,S002,SON-SON-A-XL-SK,1819.48
