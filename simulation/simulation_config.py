@@ -49,6 +49,8 @@ WEATHER_MULTIPLIER = {
     "Snow": 0.60,
 }
 
+DEFAULT_WEATHER = "Sunny"
+
 PROMOTIONS = {}
 
 NOISE_MEAN = 1.00

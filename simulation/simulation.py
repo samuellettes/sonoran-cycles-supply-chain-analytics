@@ -24,7 +24,7 @@ class Simulation:
         self.purchase_orders = []
         self.inventory_history = []
         self.forecast_history = []
-
+        self.daily_order_summary = []
         self.inventory = None
 
         self.next_sales_order = 100000
@@ -35,6 +35,8 @@ class Simulation:
         self.customers = pd.read_csv(self.data_path / "customers.csv")
         self.suppliers = pd.read_csv(self.data_path / "suppliers.csv")
         self.calendar = pd.read_csv(self.data_path / "calendar.csv")
+
+        self.calendar["date"] = pd.to_datetime(self.calendar["date"])
 
     def initialize_inventory(self):
         self.inventory = self.products[["product_id"]].copy()
@@ -72,5 +74,9 @@ class Simulation:
 
         pd.DataFrame(self.inventory_history).to_csv(
             self.output_path / "inventory_history.csv",
+            index=False,
+        )
+        pd.DataFrame(self.daily_order_summary).to_csv(
+            self.output_path / "daily_order_summary.csv",
             index=False,
         )
