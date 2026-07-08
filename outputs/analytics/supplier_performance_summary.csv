@@ -1,3 +1,3 @@
 supplier_id,supplier_name,purchase_orders,open_purchase_orders,received_purchase_orders,ordered_units,received_units,open_units,average_lead_time_days,receipt_rate
-S001,Merida Industry,2024,68,1956,124236,120078,4158,55.0,0.9665314401622718
-S002,Ideal Bike Corp,130,2,128,7922,7802,120,45.0,0.9848523100227216
+S001,Merida Industry,2029,68,1961,124704,120531,4173,55.0,0.9665367590454196
+S002,Ideal Bike Corp,126,2,124,7684,7561,123,45.0,0.9839927121290994
