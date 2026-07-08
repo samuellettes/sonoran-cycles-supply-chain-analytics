@@ -1,11 +1,13 @@
-supplier_id,supplier_name,country,lead_time_days
-S001,Fox Factory,USA,21
-S002,SRAM,Taiwan,30
-S003,Shimano,Japan,45
-S004,DT Swiss,Switzerland,28
-S005,Maxxis,Taiwan,35
-S006,Race Face,Canada,28
-S007,OneUp Components,Canada,24
-S008,Wolf Tooth,USA,18
-S009,Cane Creek,USA,20
-S010,Industry Nine,USA,16
+supplier_id,supplier_name,supplier_category,country,lead_time_days,risk_level,minimum_order_qty
+S001,Merida Industry,Finished Goods - Carbon Frames,Taiwan,55,Low,100
+S002,Ideal Bike Corp,Finished Goods - Aluminum Frames,Taiwan,45,Low,75
+S003,Shimano,Drivetrains and Brakes,Japan,42,Medium,200
+S004,SRAM,Premium Drivetrains,Taiwan,35,Medium,150
+S005,Fox Factory,Suspension Systems,USA,21,Low,50
+S006,Maxxis,Tires,Taiwan,32,Low,100
+S007,DT Swiss,Wheelsets,Switzerland,28,Low,50
+S008,Race Face,Cockpit Components,Canada,24,Low,75
+S009,Industry Nine,Premium Wheel Upgrades,USA,18,Low,25
+S010,OneUp Components,Dropper Posts and Accessories,Canada,22,Low,50
+S011,KMC,Chains,Taiwan,30,Low,150
+S012,TRP,Brake Systems,Taiwan,34,Medium,100

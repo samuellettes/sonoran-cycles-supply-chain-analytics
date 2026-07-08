@@ -1,3 +1,3 @@
 supplier_id,supplier_name,purchase_orders,open_purchase_orders,received_purchase_orders,ordered_units,received_units,open_units,average_lead_time_days,receipt_rate
-S001,Fox Factory,2141,15,2126,131963,131038,925,21.0,0.9929904594469662
-S002,SRAM,805,10,795,49261,48647,614,30.0,0.987535778810824
+S001,Merida Industry,2024,68,1956,124236,120078,4158,55.0,0.9665314401622718
+S002,Ideal Bike Corp,130,2,128,7922,7802,120,45.0,0.9848523100227216
