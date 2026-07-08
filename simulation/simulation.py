@@ -85,3 +85,7 @@ class Simulation:
             self.output_path / "daily_order_summary.csv",
             index=False,
         )
+        pd.DataFrame(self.forecast_history).to_csv(
+            self.output_path / "forecast_history.csv",
+            index=False,
+        )
