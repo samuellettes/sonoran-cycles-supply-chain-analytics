@@ -6,7 +6,10 @@ Runs the Sonoran Cycles sales simulation across a calendar date range.
 Responsibilities:
 - Prepare the simulation object
 - Loop through calendar dates
+- Receive inbound purchase orders
 - Generate daily dealer and DTC orders
+- Review inventory and create new purchase orders
+- Record daily inventory snapshots
 - Store daily order summaries
 """
 
@@ -16,9 +19,15 @@ import simulation.simulation_config as config
 
 from simulation.customer_engine import add_customer_order_weights
 from simulation.order_generator import generate_daily_orders
+
 from simulation.inventory_engine import (
     record_inventory_snapshot,
     calculate_inventory_summary,
+)
+
+from simulation.purchasing_engine import (
+    receive_purchase_orders,
+    review_inventory_and_create_purchase_orders,
 )
 
 
@@ -72,11 +81,14 @@ def filter_calendar(calendar_df, start_date=None, end_date=None):
 
 def run_sales_simulation(sim, start_date=None, end_date=None):
     """
-    Runs sales order generation over the selected calendar range.
+    Runs sales order generation, inventory allocation, and replenishment
+    over the selected calendar range.
     """
 
     if sim.calendar is None:
-        raise ValueError("Calendar has not been loaded. Run sim.load_master_data() first.")
+        raise ValueError(
+            "Calendar has not been loaded. Run sim.load_master_data() first."
+        )
 
     prepare_simulation(sim)
 
@@ -92,19 +104,37 @@ def run_sales_simulation(sim, start_date=None, end_date=None):
         date = calendar_row["date"]
         weather = get_weather_for_day(calendar_row)
 
+        # 1. Receive inbound purchase orders due today
+        receipt_summary = receive_purchase_orders(
+            sim=sim,
+            date=date,
+        )
+
+        # 2. Generate customer orders and allocate available inventory
         daily_summary = generate_daily_orders(
             sim=sim,
             date=date,
             weather=weather,
         )
 
+        # 3. Review ending inventory and create new purchase orders
+        po_summary = review_inventory_and_create_purchase_orders(
+            sim=sim,
+            date=date,
+        )
+
+        # 4. Record ending inventory snapshot
         record_inventory_snapshot(
             sim=sim,
             date=date,
         )
 
+        # 5. Calculate inventory summary metrics
         inventory_summary = calculate_inventory_summary(sim)
 
+        # 6. Add purchasing and inventory metrics to the daily summary
+        daily_summary.update(receipt_summary)
+        daily_summary.update(po_summary)
         daily_summary.update(inventory_summary)
 
         daily_summaries.append(daily_summary)

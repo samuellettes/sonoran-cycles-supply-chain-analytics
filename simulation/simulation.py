@@ -6,6 +6,7 @@ Central simulation object for the Sonoran Cycles demand planning project.
 
 from pathlib import Path
 import pandas as pd
+import simulation.simulation_config as config
 
 
 class Simulation:
@@ -40,9 +41,13 @@ class Simulation:
 
     def initialize_inventory(self):
         self.inventory = self.products[["product_id"]].copy()
+
         self.inventory["on_hand"] = 40
         self.inventory["allocated"] = 0
         self.inventory["available"] = 40
+
+        self.inventory["reorder_point"] = config.DEFAULT_REORDER_POINT
+        self.inventory["target_stock"] = config.DEFAULT_TARGET_STOCK
 
     def next_sales_order_number(self):
         order = f"SO{self.next_sales_order}"

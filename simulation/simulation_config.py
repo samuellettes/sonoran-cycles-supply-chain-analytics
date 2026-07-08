@@ -216,3 +216,13 @@ STANDARD_COST_PCT_BY_CATEGORY = {
     "eMTB": 0.64,
     "Gravel": 0.52,
 }
+
+# =========================================================
+# PURCHASING / REPLENISHMENT SETTINGS
+# =========================================================
+
+PO_STATUS_OPEN = "Open"
+PO_STATUS_RECEIVED = "Received"
+
+DEFAULT_REORDER_POINT = 20
+DEFAULT_TARGET_STOCK = 80
