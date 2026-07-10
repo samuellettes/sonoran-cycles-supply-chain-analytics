@@ -1,113 +1,74 @@
 # Sonoran Cycles Supply Chain Analytics
 
-A portfolio project simulating the operations of a fictional premium bicycle manufacturer based in Arizona.
+## Project Overview
 
-The goal of this project is to demonstrate practical supply chain analytics skills by building a realistic ERP dataset from scratch using Python, analyzing it with SQL, and presenting insights through Power BI dashboards.
+Sonoran Cycles is a fictional premium bicycle manufacturer used to simulate a realistic supply chain analytics environment.
 
----
+This project creates an end-to-end analytical workflow for demand planning, inventory management, replenishment, forecasting, SQL analysis, and dashboard design.
 
-## Project Objectives
-
-- Build a realistic relational supply chain dataset
-- Simulate demand planning and inventory management
-- Practice SQL using a multi-table database
-- Develop executive Power BI dashboards
-- Demonstrate analytical thinking used in manufacturing and supply chain roles
+The goal is to demonstrate how a supply chain analyst can build and analyze ERP-style data using Python, SQL, SQLite, and Power BI.
 
 ---
 
-## Fictional Company
+## Business Scenario
 
-**Company Name:** Sonoran Cycles
+Sonoran Cycles sells premium mountain and gravel bikes through two channels:
 
-Sonoran Cycles is a premium bicycle manufacturer headquartered in Arizona, specializing in mountain bikes and gravel bikes designed for desert and mountain riding.
+- Dealer
+- Direct-to-Consumer
 
-### Product Lineup
+The company manages a multi-model bicycle catalog, dealer accounts, finished-goods inventory, supplier replenishment, and monthly demand forecasts.
 
-| Model | Category |
-|--------|----------|
-| Catalina | Cross Country |
-| Rincon | Downcountry |
-| Sabino | Trail |
-| Romero | Aggressive Trail |
-| Oracle | Enduro |
-| Sky Island | eMTB |
-| Sonoita | Gravel |
+The business problem is to understand how demand, inventory availability, supplier lead times, and forecast accuracy affect fulfillment performance.
 
 ---
 
-## Data Model
+## Key Business Questions
 
-This project uses a simplified relational database consisting of eight connected tables.
+This project answers questions such as:
 
-| Table | Purpose |
-|---------|----------|
-| Products | Product master data |
-| Calendar | Date dimension |
-| Customers | Dealer and Direct-to-Consumer accounts |
-| Sales Orders | Customer transactions |
-| Inventory | Monthly inventory snapshots |
-| Purchase Orders | Supplier purchasing |
-| Suppliers | Vendor master data |
-| Forecast | Monthly demand forecasts |
+- Which bike models generate the most revenue?
+- Which SKUs create the most backorders?
+- Which products have the weakest service levels?
+- How does Dealer demand compare to DTC demand?
+- Which suppliers create the most replenishment exposure?
+- Which models are hardest to forecast?
+- Where should inventory planning assumptions be adjusted?
 
 ---
 
 ## Tools Used
 
 - Python
-- Pandas
+- pandas
 - NumPy
+- Jupyter Notebook
+- SQLite
 - SQL
-- Power BI
-- Excel
-- Git & GitHub
+- Git
+- Power BI planning documentation
 
 ---
 
-## Current Progress
+## Project Workflow
 
-### Completed
-
-- [x] Project planning
-- [x] Product Master (210 SKUs)
-
-### In Progress
-
-- [ ] Calendar Dimension
-
-### Upcoming
-
-- [ ] Customer Master
-- [ ] Sales Order Generator
-- [ ] Inventory Snapshots
-- [ ] Purchase Orders
-- [ ] Suppliers
-- [ ] Forecast Table
-- [ ] SQL Analysis
-- [ ] Power BI Dashboard
-- [ ] Case Study
-
----
-
-## Skills Demonstrated
-
-- Data Modeling
-- Supply Chain Analytics
-- Demand Planning
-- Inventory Analysis
-- Forecast Accuracy
-- SQL
-- Python
-- Business Intelligence
-- Power BI
-
----
-
-## Project Status
-
-🚧 In Development
-
-This repository is actively being developed as a portfolio project.
-
-Additional datasets, dashboards, and documentation will be added throughout development.
+```text
+Master Data
+    ↓
+Demand Simulation
+    ↓
+Sales Order Generation
+    ↓
+Inventory Allocation
+    ↓
+Purchase Order Replenishment
+    ↓
+Forecast Generation
+    ↓
+Analytics Summary Tables
+    ↓
+SQLite Database
+    ↓
+SQL Business Analysis
+    ↓
+Power BI Dashboard Design
