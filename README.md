@@ -72,3 +72,61 @@ SQLite Database
 SQL Business Analysis
     ↓
 Power BI Dashboard Design
+
+## Key Findings
+
+The latest simulation run produced several supply chain planning insights:
+
+- The highest-revenue model was **Romero**, generating **$170,500,841** in booked revenue.
+- The weakest model-level service level was **Sabino**, with a service level of **50.7%**.
+- The SKU with the highest stockout exposure was **SON-ROM-C-M-IR**, with **884 stockout days**.
+- The hardest model to forecast was **Sonoita**, with WAPE of **57.8%**.
+- The supplier with the highest open PO exposure was **Merida Industry**, with **3,797 open units**.
+
+These findings demonstrate how demand planning, inventory policy, supplier replenishment, and forecast accuracy interact in a simulated bicycle manufacturing environment.
+
+For a full generated report, see:
+
+```text
+reports/executive_insights.md
+
+## Project Outputs
+
+This project generates several reusable outputs:
+
+### Raw Simulation Outputs
+
+- `outputs/sales_orders.csv`
+- `outputs/sales_order_lines.csv`
+- `outputs/purchase_orders.csv`
+- `outputs/inventory_history.csv`
+- `outputs/forecast_history.csv`
+- `outputs/daily_order_summary.csv`
+
+### Analytics Outputs
+
+- `outputs/analytics/monthly_sales_summary.csv`
+- `outputs/analytics/model_performance_summary.csv`
+- `outputs/analytics/inventory_kpi_summary.csv`
+- `outputs/analytics/forecast_accuracy_by_model.csv`
+- `outputs/analytics/supplier_performance_summary.csv`
+- `outputs/analytics/daily_kpi_summary.csv`
+
+### Reports
+
+- `reports/project_summary.md`
+- `reports/executive_insights.md`
+
+### SQL
+
+- `sql/01_validation_queries.sql`
+- `sql/02_business_analysis_queries.sql`
+
+### Power BI Planning
+
+- `powerbi/dashboard_design.md`
+- `powerbi/data_model.md`
+- `powerbi/dax_measures.md`
+- `powerbi/import_checklist.md`
+- `powerbi/build_sequence.md`
+
