@@ -4,29 +4,29 @@
 
 | Metric | Value |
 |---|---:|
-| Sales Orders | 36,814 |
-| Sales Order Lines | 102,060 |
-| Purchase Orders | 2,143 |
-| Booked Revenue | $656,632,373 |
-| Fulfilled Revenue | $413,069,312 |
-| Requested Units | 205,977 |
-| Fulfilled Units | 129,480 |
-| Backordered Units | 76,497 |
-| Service Level | 62.9% |
-| Backorder Rate | 37.1% |
-| Open PO Units | 3,120 |
-| Forecast WAPE | 29.5% |
-| Forecast Bias | 0.3% |
+| Sales Orders | 36,942 |
+| Sales Order Lines | 102,608 |
+| Purchase Orders | 2,168 |
+| Booked Revenue | $659,862,478 |
+| Fulfilled Revenue | $416,172,603 |
+| Requested Units | 206,636 |
+| Fulfilled Units | 130,115 |
+| Backordered Units | 76,521 |
+| Service Level | 63.0% |
+| Backorder Rate | 37.0% |
+| Open PO Units | 4,331 |
+| Forecast WAPE | 29.4% |
+| Forecast Bias | 0.4% |
 
 ---
 
 ## Key Findings
 
-- The highest-revenue model was **Romero**, generating **$168,180,267** in booked revenue.
-- The weakest model-level service level was **Sabino**, with a service level of **50.6%**.
-- The SKU with the highest stockout exposure was **SON-SAB-C-M-SS**, with **908 stockout days**.
-- The hardest model to forecast was **Sonoita**, with WAPE of **58.9%**.
-- The supplier with the highest open PO exposure was **Merida Industry**, with **2,998 open units**.
+- The highest-revenue model was **Romero**, generating **$168,392,959** in booked revenue.
+- The weakest model-level service level was **Sabino**, with a service level of **50.1%**.
+- The SKU with the highest stockout exposure was **SON-SAB-C-M-IR**, with **901 stockout days**.
+- The hardest model to forecast was **Sonoita**, with WAPE of **59.3%**.
+- The supplier with the highest open PO exposure was **Merida Industry**, with **3,970 open units**.
 
 ---
 
