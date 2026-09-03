@@ -52,7 +52,6 @@ This project answers questions such as:
 
 ## Project Workflow
 
-```text
 Master Data
     ↓
 Demand Simulation
@@ -87,7 +86,6 @@ These findings demonstrate how demand planning, inventory policy, supplier reple
 
 For a full generated report, see:
 
-```text
 reports/executive_insights.md
 
 ## Project Outputs
